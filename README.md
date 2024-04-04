@@ -39,6 +39,16 @@ Importing repos to src path.
 vcs import src < src/linux-vcstool/test_ws.repos
 ```
 
+## Auto complete :D
+
+All autocomplete files are in `/usr/share/vcstool-completion`
+```bash
+# bash
+source /usr/share/vcstool-completion/vcs.bash
+# zsh
+source /usr/share/vcstool-completion/vcs.zsh
+```
+
 ## Reference
 
 - https://wiki.ros.org/vcstool

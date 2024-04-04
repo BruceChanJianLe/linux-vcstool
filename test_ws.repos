@@ -1,0 +1,13 @@
+repositories:
+  linux-vcstool:
+    type: git
+    url: git@github.com:BruceChanJianLe/linux-vcstool.git
+    version: master
+  ros2-behaviortree:
+    type: git
+    url: https://github.com/BruceChanJianLe/ros2-behaviortree.git
+    version: master
+  ros2-gtest:
+    type: git
+    url: https://github.com/BruceChanJianLe/ros2-gtest.git
+    version: master

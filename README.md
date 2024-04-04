@@ -25,6 +25,20 @@ Alternatively,
 sudo pip install vcstool
 ```
 
+## Usage
+
+Exporting repositories to test_ws.repo file.
+```bash
+# vsc export $path > $path_to_repo_files
+vcs export src > src/linux-vcstool/test_ws.repos
+```
+
+Importing repos to src path.
+```bash
+# vsc import $path < $path_to_repo_files
+vcs import src < src/linux-vcstool/test_ws.repos
+```
+
 ## Reference
 
 - https://wiki.ros.org/vcstool
